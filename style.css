@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    font-family: verdana, helvetica;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.window {
+    width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    max-width: 500px;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.subsect {
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
