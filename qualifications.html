@@ -1,24 +1,46 @@
 <html>
     <head>
-
+        <link id="style-sheet" href="forest.css" rel="stylesheet"/>
     </head>
     <body>
-        <h1>Qualifications</h1>
+        <header>
+            <div class="dropdown">
+                <button class="dropbtn">THEME</button>
+                <div class="dropdown-content">
+                    <button onclick="changeForest()" type="button">FOREST</button>
+                    <button onclick="changeDark()" type="button">DARK</button>
+                    <script src="function.js"></script>
+                </div>
+            </div>
+        </header>
+        <div class="window">
+            <header>
+                <a href="qualifications.html"><h1>QUALIFICATIONS</h1></a>
+            </header>
+            <main>
+                <section class="item">
+                    <h2>RESUME</h2>
+                    <a href="Resume.pdf" target="_blank">OPEN RESUME</a>
+                </section>
 
-        <div>
-            <h3>Resume Download</h3>
+                <section>
+                    <h2>TECHNICAL SKILLS</h2>
+                    <a class="list" href="https://cplusplus.com/" target="_blank">C++</a>
+                    <a class="list" href="https://www.python.org/" target ="_blank">PYTHON</a>
+                    <a class="list" href="https://www.java.com/en/" target="_blank">JAVA</a>
+                </section>
+
+                <section class="list">
+                    <h2>TECHNICAL INTERESTS</h2>
+                    <a class="list" href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">MACHINE LEARNING</a>
+                    <a class="list" href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank">CLOUD COMPUTING</a>
+                    <a class="list" href="https://en.wikipedia.org/wiki/Data_science" target="_blank">DATA SCIENCE</a>
+                </section>
+
+                <section class="back">
+                    <a href="index.html" class="backbtn">BACK</a>
+                </section>
+            </main>
         </div>
-
-        <div>
-            <h3>Education</h3>
-        </div>
-
-        <div>
-            <h3>Technical Skills</h3>
-        </div>
-
-        <div>
-            <h3>Technical Interests</h3>
-    </div>
     </body>
 </html>

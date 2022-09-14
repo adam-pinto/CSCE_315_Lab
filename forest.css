@@ -1,0 +1,145 @@
+body {
+    background-image: url(forest.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: black;
+    font-family: verdana;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a:link {text-decoration: none;}
+
+a:hover {background-color: #bbc4c4;}
+
+.back {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.backbtn {
+    display: inline;
+    background-color: transparent;
+    color: black;
+    font-family: Verdana;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    text-align: center;
+}
+
+.window {
+    width: 80%;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 650px;
+    border-width: 1.5px;    
+    border-style: solid;
+}
+
+.item {
+    text-align: center;
+}
+
+.item a {
+    color: black;
+    font-family: verdana;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    font-family: Verdana;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.dropdown-content button {
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    font-family: Verdana;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-top: 2px;
+    border-style: solid;
+    border-width: 1.5px;
+    cursor: pointer;
+}
+
+button:hover {background-color: #bbc4c4;}
+
+.text-block {
+    text-align: center;
+}
+
+.list {
+    color: black;
+    display: block;
+    text-align: center;
+    list-style: none
+}
+
+.dropdown-content a:hover {background-color: #bbc4c4;}
+
+.dropdown:hover .dropdown-content {display: block;}
