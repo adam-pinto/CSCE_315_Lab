@@ -1,5 +1,6 @@
 body {
-    background-color: aqua;
+    background-image: url(desert.jpg);
+    background-size: cover;
 }
 
 h1 {
@@ -26,7 +27,7 @@ p {
 
 a:link {text-decoration: none;}
 
-a:hover {background-color: #bbc4c4;}
+a:hover {background-color: #cfeafa;}
 
 .back {
     text-align: center;
@@ -48,6 +49,7 @@ a:hover {background-color: #bbc4c4;}
     border-style: solid;
     border-width: 1.5px;
     text-align: center;
+    border-radius: 100px;
 }
 
 .window {
@@ -56,9 +58,7 @@ a:hover {background-color: #bbc4c4;}
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    max-width: 450px;
-    border-width: 1.5px;    
-    border-style: solid;
+    max-width: 1200px;
 }
 
 .item {
@@ -78,7 +78,7 @@ a:hover {background-color: #bbc4c4;}
     padding-right: 15px;
     padding-left: 15px;
     border-style: solid;
-    border-radius: 3px;
+    border-radius: 100px;
 }
 
 .dropdown {
@@ -99,6 +99,7 @@ a:hover {background-color: #bbc4c4;}
     margin: 15px;
     border-style: solid;
     border-width: 1.5px;
+    border-radius: 100px;
 }
 
 .dropdown-content {
@@ -119,10 +120,15 @@ a:hover {background-color: #bbc4c4;}
     padding-bottom: 8px;
     font-size: 12px;
     letter-spacing: 2px;
-    margin: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
     border-style: solid;
     border-width: 1.5px;
+    border-radius: 100px;
+    cursor: pointer;
 }
+
+button:hover {background-color: #cfeafa;}
 
 .text-block {
     text-align: center;
@@ -135,8 +141,10 @@ a:hover {background-color: #bbc4c4;}
     list-style: none
 }
 
-.dropdown-content a:hover {background-color: #bbc4c4;}
+.information {
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #cfeafa;}
 
 .dropdown:hover .dropdown-content {display: block;}
-
-

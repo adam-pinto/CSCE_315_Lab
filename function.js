@@ -7,11 +7,11 @@ function changeForest() {
     localStorage.setItem(STYLESHEET_KEY, "forest.css");
 }
 
-function changeDark() {
+function changeDesert() {
     var element = document.getElementById("style-sheet");
-    element.setAttribute("href", "dark.css");
+    element.setAttribute("href", "desert.css");
 
-    localStorage.setItem(STYLESHEET_KEY, "dark.css")
+    localStorage.setItem(STYLESHEET_KEY, "desert.css")
 }
 
 window.onload = function(){
